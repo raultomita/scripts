@@ -1,4 +1,5 @@
 # commands that install a new instance of FarmMonitorDaemon
+# give rights: chmod u+x
 #!/bin/bash
 
 sudo apt-get update
