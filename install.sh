@@ -24,7 +24,7 @@ sudo apt-get -y --purge remove build-essential tk-dev
 sudo apt-get -y --purge remove libncurses5-dev libncursesw5-dev libreadline6-dev
 sudo apt-get -y --purge remove libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev
 sudo apt-get -y --purge remove libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev
-sudo apt-get autoremove
+sudo apt-get -y autoremove
 sudo apt-get clean
 
 sudo pip3.6 install --upgrade pip
